@@ -1,3 +1,9 @@
+"""
+    Name: button_pygame.py
+    Author: Triumph Ogbonnia
+    Created: 3/2/24
+    Purpose: A simple pygame program that displays a button and responds to mouse clicks.
+"""
 # Imports
 import sys
 import pygame
@@ -69,8 +75,8 @@ def myFunction():
     print('Button Pressed')
 
 # Create buttons
-customButton1 = Button(30, 30, 400, 100, 'Button One (onePress)', myFunction)  # TODO: Add comments for each button instance
-customButton2 = Button(30, 140, 400, 100, 'Button Two (multiPress)', myFunction, True)  # TODO: Add comments for each button instance
+customButton1 = Button(30, 30, 400, 100, 'Button One (onePress)', myFunction)
+customButton2 = Button(30, 140, 400, 100, 'Button Two (multiPress)', myFunction, True)
 
 # Game loop.
 while True:
