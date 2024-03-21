@@ -1,0 +1,5 @@
+# pip install wikipedia
+# pip install rich
+# pip install datetime
+# pip install speechrecognition
+# pip install pyttsx3
